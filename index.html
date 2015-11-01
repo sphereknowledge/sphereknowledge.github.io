@@ -15,6 +15,11 @@
     <link rel="stylesheet" href="css/sanfrancisco-font.css">
     
     <style>
+/*    Background image copyright:
+      Image: https://www.flickr.com/photos/8353854@N08/1725399902/
+      Author: alex.byworth, https://www.flickr.com/photos/8353854@N08/
+      License: https://creativecommons.org/licenses/by-nd/2.0/
+      Ammendments: flipped & cropped */
       html {
         background: url(img/landing_bg.jpg) no-repeat center center fixed; 
         background-size: cover;
@@ -23,7 +28,6 @@
         color: white;
         background-color: rgba(0,0,0,0);
         font-family: "San Francisco";
-        font-weight: 200;
       }
       a, a:hover {
         color:white;
@@ -43,37 +47,33 @@
       h1 {
         font-size: 2.2rem;
       }
-/*      .centre {
-        margin-left: auto;
-        margin-right: auto;
-      }*/
 
-      @media (min-width: 33.9em) { 
+      @media (min-width: 48em) { 
         #title {
           position: absolute;
           left: 50px;
           top: 20px;
         }
-        #copyright {
+/*        #copyright {
           position: absolute;
           left: 50px;
           bottom: 10px;
           font-size: 0.5rem;
-        }
+        }*/
       }
-      @media (max-width: 33.9em) { 
+      @media (max-width: 47.9em) { 
         #title {
           width:100%;
           margin-top: 20px;
           text-align:center;
         }
-        #copyright {
+/*        #copyright {
           position: absolute;
           bottom: 10px;
           font-size: 0.5rem;
           text-align: center;
           width:100%;
-        }
+        }*/
       }
       #title img {
         height:2rem;
@@ -93,12 +93,16 @@
     </div>
     <div id="join-us">
       <div class="centre">
-        <a href="https://script.google.com/macros/s/AKfycbxGgx4ibAOPdNvFAfIffpV6nh3dOGEaftLRrzPBsDNZdzsh0mKG/exec">Join Team <span class="small-icon"><i class="fa fa-chevron-right"></i></span></a>
+        <a href="https://script.google.com/macros/s/AKfycbxGgx4ibAOPdNvFAfIffpV6nh3dOGEaftLRrzPBsDNZdzsh0mKG/exec">
+          Join Team <span class="small-icon"><i class="fa fa-chevron-right"></i></span>
+          <!-- Join Team > -->
+        </a>
       </div>
     </div>
-    <div id="copyright">
+
+<!--     <div id="copyright">
       Image: <a href="https://www.flickr.com/photos/8353854@N08/">alex.byworth</a>, flipped & cropped
-    </div>
+    </div> -->
 
     <!-- jQuery first, then Bootstrap JS. -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
